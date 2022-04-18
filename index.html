@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="makeDeck.js"></script>
+    <script src="winningConditions.js"></script>
+    <script src="script.js"></script>
+    <div class="mainContainer">
+      <span class="gameTitle">Retro Video Poker</span>
+      <div class="gameScreen">
+        <div class="pointsDisplay">
+          <table class="pointsTable">
+            <tr>
+            <th>1 pairs</th>
+            <th>2 pairs</th>
+            <th>3 of a kind</th>
+            <th>Straight</th>
+            <th>Flush</th>
+            <th>Full House</th>
+            <th>4 of a kind</th>
+            <th>Straight Flush</th>
+            <th>Royal Flush</th>
+            </tr>
+            <tr class = 'bet1Display'>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>6</td>
+              <td>9</td>
+              <td>25</td>
+              <td>50</td>
+              <td>250</td>
+            </tr>
+            <tr class = 'bet2Display'>
+              <td>2</td>
+              <td>4</td>
+              <td>6</td>
+              <td>8</td>
+              <td>12</td>
+              <td>18</td>
+              <td>50</td>
+              <td>100</td>
+              <td>500</td>
+            </tr>
+            <tr class = 'bet3Display'>
+              <td>3</td>
+              <td>6</td>
+              <td>9</td>
+              <td>12</td>
+              <td>18</td>
+              <td>27</td>
+              <td>75</td>
+              <td>150</td>
+              <td>750</td>
+            </tr>
+            <tr class = 'bet4Display'>
+              <td>4</td>
+              <td>8</td>
+              <td>12</td>
+              <td>16</td>
+              <td>24</td>
+              <td>36</td>
+              <td>100</td>
+              <td>200</td>
+              <td>1000</td>
+            </tr>
+            <tr class = 'bet5Display'>
+              <td>5</td>
+              <td>10</td>
+              <td>15</td>
+              <td>20</td>
+              <td>30</td>
+              <td>45</td>
+              <td>125</td>
+              <td>250</td>
+              <td>4000</td>
+            </tr>
+          </table>
+          <div class="credit"></div>
+          <div class = "winMessage">Bet the amount you want to lose!</div>
+        </div>
+        <div class="cardsDisplay"></div>
+      </div>
+      <div class="physicalScreen">
+        <div class ="bet">
+        <button type="button" class="btn bet1 betButton">1</button>
+        <button type="button" class="btn bet2 betButton">2</button>
+        <button type="button" class="btn bet3 betButton">3</button>
+        <button type="button" class="btn bet4 betButton">4</button>
+        <button type="button" class="btn bet5 betButton">5</button>
+      </div>
+        <button type="button" class="btn swapButton button">Swap</button>
+        <button type="button" class="btn dealButton button">Deal</button>
+        <button type="button" class="btn restartButton button">Restart</button>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
